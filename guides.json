@@ -1,11 +1,11 @@
 [
-  { "name": "1.Ejercitación", "repo": "gobstones/curso-LPYSD1"
+  { "name": "Ejercitación", "repo": "gobstones/curso-LPYSD1"
   , "exercises": 
     [ { "id": "1.", "name": "Laberinto con queso"
-      , "path": "Proyectos/1.Ejercitacion/1.Laberinto con queso"
+      , "path": "Proyectos/Ejercitacion/1.Laberinto con queso"
       }
     , { "id": "2", "name": "Programando en cuadriculado"
-      , "path": "Proyectos/1.Ejercitacion/2.Programando en cuadriculado"
+      , "path": "Proyectos/Ejercitacion/2.Programando en cuadriculado"
       }
     ]
   }
