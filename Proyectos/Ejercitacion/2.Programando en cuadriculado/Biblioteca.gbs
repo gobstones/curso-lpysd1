@@ -1,0 +1,13 @@
+-- Nueva Biblioteca
+
+procedure Pintar()
+{
+  repeat(40) { PintarBasico() }
+}
+
+procedure PintarBasico()
+{
+   foreach c in [minColor()..maxColor()]
+    { Poner(c) }
+}
+

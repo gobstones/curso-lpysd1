@@ -1,0 +1,16 @@
+<BoardCoding>
+    <Cell>
+        <Blue>0</Blue>
+        <Black>0</Black>
+        <Red>0</Red>
+        <Green>0</Green>
+        <Image>CeldaVacia.png</Image>         
+    </Cell>
+    <Cell>
+        <Blue>40</Blue>
+        <Black>40</Black>
+        <Red>40</Red>
+        <Green>40</Green>
+        <Image>CeldaPintada.png</Image>         
+    </Cell>
+</BoardCoding>
