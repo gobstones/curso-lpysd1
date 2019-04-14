@@ -1,58 +1,26 @@
-procedure SalirDelLaberintoComiendoQueso() {
-  repeat(20) {
+program { SalirDelLaberintoSinCasoDeBorde() }
+
+procedure SalirDelLaberintoConCasoDeBorde() {
+  // ESTE PREGUNTA SI HAY QUESO EN LA META
+  ComerQuesoSiHay()
+  while (not (estoyEnLaMeta())) {
+    AvanzarUnPasoSegúnLaFlecha()
     ComerQuesoSiHay()
-    AvanzarUnPasoSiguiendoLaFlecha()
+  }
+}
+
+procedure SalirDelLaberintoSinCasoDeBorde() {
+  // ESTE NO PREGUNTA SI HAY QUESO EN LA META
+  while (not (estoyEnLaMeta())) {
+    ComerQuesoSiHay()
+    AvanzarUnPasoSegúnLaFlecha()
   }
 }
 
 procedure ComerQuesoSiHay() {
-  if (hayQueso()) {
-    ComerQueso()
+  if (hayQuesoAcá()) {
+    ComerElQueso()
   }
 }
 
-procedure AvanzarUnPasoSiguiendoLaFlecha() {
-  if (laFlechaApuntaAlNorte()) {
-    SacarLaFlecha()
-    MoverAlRatónAl_(Norte)
-  } elseif (laFlechaApuntaAlEste()) {
-    SacarLaFlecha()
-    MoverAlRatónAl_(Este)
-  } elseif (laFlechaApuntaAlSur()) {
-    SacarLaFlecha()
-    MoverAlRatónAl_(Sur)
-  } elseif (laFlechaApuntaAlOeste()) {
-    SacarLaFlecha()
-    MoverAlRatónAl_(Oeste)
-  } else {
-  }
-}
 
-procedure ComerQueso() {
-  Sacar(Verde)
-}
-
-function hayQueso() {
-  return (nroBolitas(Verde) == 1)
-}
-
-function laFlechaApuntaAlNorte() {
-  return (nroBolitas(Rojo) == 1)
-}
-
-function laFlechaApuntaAlEste() {
-  return (nroBolitas(Rojo) == 2)
-}
-
-function laFlechaApuntaAlSur() {
-  return (nroBolitas(Rojo) == 3)
-}
-
-function laFlechaApuntaAlOeste() {
-  return (nroBolitas(Rojo) == 4)
-}
-
-
-program {
-  SalirDelLaberintoComiendoQueso()
-}
