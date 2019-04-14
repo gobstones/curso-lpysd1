@@ -1,11 +1,14 @@
 [
   { "name": "Ejercitación", "repo": "gobstones/curso-LPYSD1"
   , "exercises": 
-    [ { "id": "1.", "name": "Laberinto con queso"
+    [ { "id": "0.", "name": "El alien toca botón"
+      , "path": "Proyectos/Ejercitacion/0.El alien toca botón"
+      }
+    , { "id": "1.", "name": "Laberinto con queso"
       , "path": "Proyectos/Ejercitacion/1.Laberinto con queso"
       }
-    , { "id": "2", "name": "Programando en cuadriculado"
-      , "path": "Proyectos/Ejercitacion/2.Programando en cuadriculado"
+    , { "id": "2", "name": "Programar en cuadriculado"
+      , "path": "Proyectos/Ejercitacion/2.Programar en cuadriculado"
       }
     ]
   }
