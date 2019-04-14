@@ -7,8 +7,11 @@
     , { "id": "1.", "name": "Laberinto con queso"
       , "path": "Proyectos/Ejercitacion/1.Laberinto con queso"
       }
-    , { "id": "2", "name": "Programar en cuadriculado"
-      , "path": "Proyectos/Ejercitacion/2.Programar en cuadriculado"
+    , { "id": "2.1.", "name": "Programar en cuadriculado: Velero"
+      , "path": "Proyectos/Ejercitacion/2.1.Programar en cuadriculado - Velero"
+      }
+    , { "id": "2.2.", "name": "Programar en cuadriculado: Camión"
+      , "path": "Proyectos/Ejercitacion/2.2.Programar en cuadriculado - Camión"
       }
     ]
   }
