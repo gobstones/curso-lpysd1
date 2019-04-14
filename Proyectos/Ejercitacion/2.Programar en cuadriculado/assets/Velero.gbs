@@ -1,0 +1,49 @@
+program
+{
+   repeat (7) { MoverAlNorte() }
+   repeat (9) { MoverAlEste() }
+   DibujarVelero()
+}
+
+procedure DibujarVelero() 
+{
+ DibujarVelaIzquierda()
+ IrDeVIaVD()
+ DibujarVelaDerecha()
+ IrDeVDaC()
+ DibujarCasco()
+}
+
+procedure DibujarVelaIzquierda()
+{
+  repeat (7) { Pintar(); MoverAlOeste() }
+  repeat (7) { Pintar(); MoverAlEste(); MoverAlNorte() }
+  repeat (7) { Pintar(); MoverAlSur() } 
+}
+
+procedure DibujarVelaDerecha()
+{
+  repeat(6) { Pintar(); MoverAlNorte() }
+  MoverAlEste()
+  repeat(3) { Pintar(); MoverAlEste(); MoverAlSur(); MoverAlSur() }
+  repeat(4) { Pintar(); MoverAlOeste() }
+}
+
+procedure DibujarCasco()
+{
+  repeat ( 5) { Pintar(); MoverAlEste() } 
+  repeat ( 2) { Pintar(); MoverAlSur(); MoverAlOeste() }
+  repeat (11) { Pintar(); MoverAlOeste() } 
+  repeat ( 2) { Pintar(); MoverAlOeste(); MoverAlNorte() }
+  repeat (10) { Pintar(); MoverAlEste() }   
+}
+
+procedure IrDeVIaVD()
+{
+  MoverAlEste(); MoverAlEste()
+}
+
+procedure IrDeVDaC()
+{
+  MoverAlSur(); MoverAlSur()
+}

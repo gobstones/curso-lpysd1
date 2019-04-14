@@ -1,6 +1,6 @@
-name: Programando en cuadriculado
+name: Programar en cuadriculado
 attire:
-  active: Programando en cuadriculado
+  active: Programar en cuadriculado
   user_permissions:
     can_toggle_visibility: false
   visible: true
