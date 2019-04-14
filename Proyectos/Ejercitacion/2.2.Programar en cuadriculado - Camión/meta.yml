@@ -1,4 +1,4 @@
-name: Programar en cuadriculado: Camión
+name: "Programar en cuadriculado: Camión"
 attire:
   active: Programar en cuadriculado
   user_permissions:
@@ -33,9 +33,9 @@ board:
     can_view_attire_section: false
   visible_edition: true
 execution_speed:
-  active: high
+  active: instantaneous
   user_permissions:
-    can_change_speed: true
+    can_change_speed: false
 library:
   visible: false
 source:
