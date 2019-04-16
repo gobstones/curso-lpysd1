@@ -1,4 +1,4 @@
-#Proyecto: El planeta de Nano (sin parámetros)
+# Proyecto: El planeta de Nano (sin parámetros)
 
 En esta actividad hay que lograr que Nano se coma todas las bananas.
 El tablero inicial es siempre el mismo, o sea que la cantidad de bananas en cada fila es la 
