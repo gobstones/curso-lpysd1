@@ -18,7 +18,6 @@ blocks:
       </category>
       <category name="Valores">
         <block type="math_number"></block>
-        <block type="DireccionSelector"></block>
       </category>
       <category name="Definiciones">
         <block type="procedures_defnoreturnnoparams"></block>
@@ -37,7 +36,7 @@ board:
 execution_speed:
   active: high
   user_permissions:
-    can_change_speed: false
+    can_change_speed: true
 library:
   visible: false
 source:
