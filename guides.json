@@ -13,6 +13,9 @@
     , { "id": "2.2.", "name": "Programar en cuadriculado: Camión"
       , "path": "Proyectos/Ejercitacion/2.2.Programar en cuadriculado - Camión"
       }
+    , { "id": "3.", "name": "El planeta de Nano (sin parámetros)"
+      , "path": "Proyectos/Ejercitacion/3.El planeta de Nano (sin parámetros)"
+      }
     ]
   }
 
