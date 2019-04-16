@@ -1,4 +1,4 @@
-name: El planeta de Nano (sin parámetros)
+name: "El planeta de Nano (sin parámetros)"
 attire:
   active: El planeta de Nano
   user_permissions:
@@ -42,4 +42,4 @@ library:
   visible: false
 source:
   visible: true
-  percentage: 0.75  
+  percentage: 0.75
