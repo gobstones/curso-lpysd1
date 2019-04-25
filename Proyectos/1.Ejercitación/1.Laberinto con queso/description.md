@@ -1,4 +1,4 @@
-# Proyecto 'Laberinto con queso'
+# Proyecto: Laberinto con queso
 
 Una vez más el ratón está en el laberinto. 
 Pero esta vez hay una diferencia: en algunos lugares del laberinto hay pedacitos de queso desperdigados. 

@@ -1,4 +1,4 @@
-# *Proyecto:* A dibujar cuadrados
+# Proyecto: A dibujar cuadrados
 
 La idea es que dibujes cuadrados rojos, como se muestra en la figura.
 Pero tenés que usar tu propio comando para dibujar un cuadrado, y para eso

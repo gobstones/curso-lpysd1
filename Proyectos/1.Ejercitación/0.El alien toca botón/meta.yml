@@ -6,7 +6,6 @@ attire:
   visible: true
 blocks:
   defaultToolbox: |
-  defaultToolbox: |
       <category name="Comandos primitivos">
         <block type="MoverAlienAlEste"></block>
         <block type="TocarBotón"></block>

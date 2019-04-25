@@ -1,4 +1,4 @@
-# Proyecto 'Programar en cuadriculado: Velero'
+# Proyecto: Programar en cuadriculado: Velero
 
 En este proyecto se expresa la misma idea de la actividad "Programar en cuadriculado", que hicimos sin computadoras.
 El objetivo en este caso es dibujar un velero, como se muestra en la figura.
