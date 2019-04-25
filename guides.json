@@ -7,14 +7,27 @@
     , { "id": "1.", "name": "Laberinto con queso"
       , "path": "Proyectos/Ejercitacion/1.Laberinto con queso"
       }
-    , { "id": "2.1.", "name": "Programar en cuadriculado: Velero"
-      , "path": "Proyectos/Ejercitacion/2.1.Programar en cuadriculado - Velero"
+    , { "id": "2.", "name": "Programar en cuadriculado: Velero"
+      , "path": "Proyectos/Ejercitacion/2.Programar en cuadriculado - Velero"
       }
-    , { "id": "2.2.", "name": "Programar en cuadriculado: Camión"
-      , "path": "Proyectos/Ejercitacion/2.2.Programar en cuadriculado - Camión"
+    , { "id": "3.", "name": "A dibujar cuadrados"
+      , "path": "Proyectos/Ejercitacion/3.A dibujar cuadrados"
       }
-    , { "id": "3.", "name": "El planeta de Nano (sin parámetros)"
-      , "path": "Proyectos/Ejercitacion/3.El planeta de Nano sin parámetros"
+    , { "id": "4.", "name": "El planeta de Nano (sin parámetros)"
+      , "path": "Proyectos/Ejercitacion/4.El planeta de Nano sin parámetros"
+      }
+    , { "id": "5.", "name": "Programar en cuadriculado: Camión"
+      , "path": "Proyectos/Ejercitacion/5.Programar en cuadriculado - Camión"
+      }
+    ]
+  }
+, { "name": "Practiquemos parámetros", "repo": "gobstones/curso-LPYSD1"
+  , "exercises": 
+    [ { "id": "1.", "name": "El planeta de Nano (con parámetros)"
+      , "path": "Proyectos/Parametros/1.El planeta de Nano con parámetros"
+      }
+    , { "id": "2.", "name": "Programar en cuadriculado: Camiones"
+      , "path": "Proyectos/Parametros/4.Programar en cuadriculado - Camiones"
       }
     ]
   }
