@@ -17,6 +17,7 @@ blocks:
       </category>
       <category name="Valores">
         <block type="math_number"></block>
+        <block type="ColorSelector"></block>
         <block type="DireccionSelector"></block>
       </category>
       <category name="Definiciones">
@@ -39,3 +40,6 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
+source
+  visible: true
+  percentage: 0.75
