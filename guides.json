@@ -23,7 +23,19 @@
   }
 , { "name": "Practiquemos parámetros", "repo": "gobstones/curso-LPYSD1"
   , "exercises": 
-    [ { "id": "1.", "name": "El planeta de Nano (con parámetros)"
+    [ { "id": "0.1.", "name": "La máquina de licuados, v1.0"
+      , "path": "Proyectos/2.Parámetros/0.1.La máquina de licuados v1.0"
+      }
+    , { "id": "0.2.", "name": "La máquina de licuados, v2.0"
+      , "path": "Proyectos/2.Parámetros/0.2.La máquina de licuados v2.0"
+      }
+    , { "id": "0.3.", "name": "La máquina de licuados, v3.0"
+      , "path": "Proyectos/2.Parámetros/0.3.La máquina de licuados v3.0"
+      }
+    , { "id": "0.4.", "name": "La máquina de licuados, v4.0"
+      , "path": "Proyectos/2.Parámetros/0.4.La máquina de licuados v4.0"
+      }
+    , { "id": "1.", "name": "El planeta de Nano (con parámetros)"
       , "path": "Proyectos/2.Parámetros/1.El planeta de Nano con parámetros"
       }
     , { "id": "2.", "name": "Cuadrados de colores"
@@ -37,5 +49,27 @@
       }
     ]
   }
-
+, { "name": "Expresiones", "repo": "gobstones/curso-LPYSD1"
+  , "exercises": 
+    [ { "id": "1.", "name": "La música del loro"
+      , "path": "Proyectos/3.Expresiones/1.La música del loro"
+      }
+    , { "id": "2.", "name": "La cena de Dino"
+      , "path": "Proyectos/3.Expresiones/2.La cena de Dino"
+      }
+    , { "id": "3.", "name": "Dino aprende a no comer chatarra"
+      , "path": "Proyectos/3.Expresiones/3.Dino aprende a no comer chatarra"
+      }
+    , { "id": "4.", "name": "Está lista la cena"
+      , "path": "Proyectos/3.Expresiones/4.Está lista la cena"
+      }
+    ]
+  }
+, { "name": "Interactividad", "repo": "gobstones/curso-LPYSD1"
+  , "exercises": 
+    [ { "id": "1.", "name": "Editor de tableros"
+      , "path": "Proyectos/4.Interactividad/1.Editor de tableros"
+      }
+    ]
+  }
 ]
