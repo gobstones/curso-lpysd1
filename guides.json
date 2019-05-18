@@ -65,10 +65,22 @@
       }
     ]
   }
-, { "name": "Interactividad", "repo": "gobstones/curso-LPYSD1"
+, { "name": "Variables", "repo": "gobstones/curso-LPYSD1"
   , "exercises": 
-    [ { "id": "1.", "name": "Editor de tableros"
-      , "path": "Proyectos/4.Interactividad/1.Editor de tableros"
+    [ { "id": "1.", "name": "Recuerden la contraseña"
+      , "path": "Proyectos/4.Variables/1.Recuerden la contraseña"
+      }
+    , { "id": "2.", "name": "¿Cuánto envido?"
+      , "path": "Proyectos/4.Variables/2.Cuánto envido"
+      }
+    , { "id": "3.1.", "name": "El mono cuenta las frutas"
+      , "path": "Proyectos/4.Variables/3.1.El mono cuenta las frutas"
+      }
+    , { "id": "3.2.", "name": "El mono va y vuelve"
+      , "path": "Proyectos/4.Variables/3.2.El mono va y vuelve"
+      }
+    , { "id": "3.3.", "name": "El mono cuenta las frutas"
+      , "path": "Proyectos/4.Variables/3.3.El mono cuenta de nuevo"
       }
     ]
   }
