@@ -5,26 +5,30 @@ attire:
     can_toggle_visibility: false
   visible: true
 blocks:
-  defaultToolbox: |
-    <category name="Comandos comunes">
-        <block type="AlternativaSimple"></block>
-        <block type="AlternativaCompleta"></block>
-        <block type="RepeticionCondicional"></block>
-    </category>
-    <category name="Expresiones comunes">
-        <block type="math_number"></block>
-        <block type="DireccionSelector"></block>
-    </category>
-    <category name="Operaciones de Música">
+  defaultToolbox: | 
+      <category name="Comandos primitivos">
         <block type="MoverAlLoroAl_"></block>
         <block type="Tocar_"></block>
+      </category>
+      <category name="Mis procedimientos" custom="PROCEDURE_CALLS">  </category>
+      <category name="Repeticiones">
+        <block type="RepeticionCondicional"></block>
+      </category>
+      <category name="Alternativas">
+        <block type="AlternativaSimple"></block>
+        <block type="AlternativaCompleta"></block>
+      </category>
+      <category name="Valores">
+        <block type="math_number"></block>
+        <block type="DireccionSelector"></block>
+      </category>
+      <category name="Sensores">
         <block type="hayInstrumento"></block>
         <block type="hay_"></block>
-    </category>
-    <category name="Mis procedimientos" custom="PROCEDURE_CALLS">  </category>
-    <category name="Definiciones">
+      </category>
+      <category name="Definiciones">
         <block type="procedures_defnoreturnnoparams"></block>
-    </category>
+      </category>
 board:
   active: 1
   initial_board_source: random
