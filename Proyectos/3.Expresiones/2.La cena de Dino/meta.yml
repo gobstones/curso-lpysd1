@@ -28,10 +28,10 @@ blocks:
         <block type="estáDinoEnElInicioDeLaFila"></block>
         <block type="hay_"></block>
       </category>
-    <category name="Operadores">
+      <category name="Operadores">
         <block type="OperadorLogico"></block>
         <block type="not"></block>
-    </category>
+      </category>
       <category name="Definiciones">
         <block type="procedures_defnoreturnnoparams"></block>
       </category>
@@ -51,3 +51,4 @@ library:
 source:
   visible: true
   percentage: 0.65  
+  
