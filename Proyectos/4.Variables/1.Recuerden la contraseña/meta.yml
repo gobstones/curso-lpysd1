@@ -10,7 +10,6 @@ blocks:
         <block type="AbrirElCuaderno"></block>
         <block type="MoverALaDocenteAl_"></block>
         <block type="EscribirLaContraseña_"></block>
-        <block type="laContraseñaEscritaEnElCuaderno"></block>
       </category>
       <category name="Mis procedimientos" custom="PROCEDURE_CALLS">  </category>
       <category name="Repeticiones">
@@ -28,8 +27,7 @@ blocks:
         <block type="DireccionSelector"></block>
       </category>
       <category name="Sensores">
-        <block type="hayQuesoAcá"></block>
-        <block type="estoyEnLaMeta"></block>
+        <block type="laContraseñaEscritaEnElCuaderno"></block>
       </category>
       <category name="Mis funciones" custom="FUNCTION_CALLS">        </category>
       <category name="Definiciones">
